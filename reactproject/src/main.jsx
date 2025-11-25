@@ -2,10 +2,11 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Link } from './components/Link';
+import { HeadingItalic } from './components/HeadingItalic';
 
 const element = (
   <>
-    <h1>Nasza strona</h1>
+    <HeadingItalic>Nasza strona</HeadingItalic>
     <main>
       <Link text='Google' shouldOpenNewTab={true} />
       <p>

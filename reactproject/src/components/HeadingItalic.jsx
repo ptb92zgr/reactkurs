@@ -1,7 +1,8 @@
-export function HeadingItalic() {
+export function HeadingItalic(props) {
+  console.log('HI', props);
   return (
     <h1>
-      <i>Test</i>
+      <i>{props.children}</i>
     </h1>
   );
 }
