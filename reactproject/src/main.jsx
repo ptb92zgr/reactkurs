@@ -7,13 +7,13 @@ const element = (
   <>
     <h1>Nasza strona</h1>
     <main>
-      <Link text='Google' />
+      <Link text='Google' shouldOpenNewTab={true} />
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
         inventore facilis deleniti perferendis illum dolor velit neque
         blanditiis optio iste.
       </p>
-      <Link text='Wyszukiwarka' />
+      <Link shouldOpenNewTab={false} />
     </main>
   </>
 );
