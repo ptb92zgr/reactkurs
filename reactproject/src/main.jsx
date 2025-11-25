@@ -3,11 +3,18 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Link } from './components/Link';
 import { HeadingItalic } from './components/HeadingItalic';
+import { Logger } from './components/Logger';
 
 const element = (
   <>
-    <HeadingItalic>Nasza strona</HeadingItalic>
+    <Logger>
+      <HeadingItalic>Nasza strona</HeadingItalic>
+    </Logger>
+
     <main>
+      <Logger>
+        <HeadingItalic>Nasza strona</HeadingItalic>
+      </Logger>
       <Link text='Google' shouldOpenNewTab={true} />
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
