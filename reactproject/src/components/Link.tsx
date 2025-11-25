@@ -1,7 +1,8 @@
 import React from 'react';
 
-export function Link({ text, shouldOpenNeTab }) {
-  const address = 'https://google.pl';
+const address = 'https://google.pl';
+
+export function Link({ text = address, shouldOpenNeTab }) {
   console.log(text);
   // const { text, shouldOpenNeTab } = props;
 
