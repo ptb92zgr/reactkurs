@@ -1,4 +1,5 @@
 import { PersonInfo } from './components/PersonInfo';
+import manImg from './assets/image.png';
 
 function App() {
   const jan = {
@@ -26,6 +27,7 @@ function App() {
       <PersonInfo person={janina} />
       <br />
       <PersonInfo person={karol} />
+      <img src={manImg} href=''></img>
     </>
   );
 }
